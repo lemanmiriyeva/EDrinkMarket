@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EDrinkMarket.Data\EDrinkMarket.Data.csproj" />
+    <ProjectReference Include="..\EDrinkMarket.Entity\EDrinkMarket.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

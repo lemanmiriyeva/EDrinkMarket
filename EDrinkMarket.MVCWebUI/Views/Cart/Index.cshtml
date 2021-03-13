@@ -1,0 +1,46 @@
+﻿@model CartListViewModel
+
+<div class="row checkoutForm">
+    <h2>Your shopping cart</h2>
+    <h4>Here are the drinks in your shopping cart.</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Selected amount</th>
+                <th>Drink</th>
+                <th class="text-right">Price</th>
+                <th class="text-right">Subtotal</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cartItem in Model.Cart.CartItems)
+            {
+<tr>
+    <td class="text-center">@cartItem.Amount</td>
+    <td class="text-left">@cartItem.Drink.Name</td>
+    <td class="text-right">@cartItem.Drink.Price.ToString("c")</td>
+    <td class="text-right">
+        @((cartItem.Amount * cartItem.Drink.Price).ToString("c"))
+    </td>
+    <td class="text-center"><a class="  text-danger remove" asp-controller="Cart" asp-action="DeleteFromCart" asp-route-drinkId="@cartItem.Drink.DrinkId"><i class="fas fa-trash-alt"></i></a></td>
+</tr>            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total:</td>
+                <td class="text-right">
+                    @Model.Cart.TotalPrice.ToString("c")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="text-right">
+        <div class="btn-group ">
+            <a class="btn btn-success" asp-controller="Order" asp-action="Checkout">Check out</a>
+            <div class="btn-group">
+                <p style="margin-top: 0.5rem;margin-left:1rem  ">Add more drinks - </p> @await Component.InvokeAsync("CategoryList")
+            </div>
+        </div>
+    </div>
+</div>

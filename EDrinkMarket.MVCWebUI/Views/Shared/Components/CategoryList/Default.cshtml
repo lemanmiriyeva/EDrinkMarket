@@ -1,0 +1,15 @@
+﻿@model CategoryListViewModel
+<div class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Drinks
+    </a>
+<ul class="nav-item dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="text-dark nav-link" href="/drink/list">All drinks</a></li>
+    <a class="dropdown-divider"></a>
+    @foreach (var category in Model.Categories)
+     {
+        <li><a class="text-dark nav-link" href="/drink/list?categoryName=@category.CategoryName">@category.CategoryName drinks</a></li>
+     }
+
+</ul>
+</div>

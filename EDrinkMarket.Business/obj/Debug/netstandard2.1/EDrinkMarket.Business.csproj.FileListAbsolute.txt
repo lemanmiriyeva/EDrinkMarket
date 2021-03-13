@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Business.deps.json
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Business.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Business.pdb
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.csprojAssemblyReference.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.AssemblyInfo.cs
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.pdb
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Data.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Entity.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Data.pdb
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\bin\Debug\netstandard2.1\EDrinkMarket.Entity.pdb
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Business\obj\Debug\netstandard2.1\EDrinkMarket.Business.csproj.CopyComplete

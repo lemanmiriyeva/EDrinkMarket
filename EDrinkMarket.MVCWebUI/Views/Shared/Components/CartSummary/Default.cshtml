@@ -1,0 +1,12 @@
+﻿@model CartListViewModel
+@if (Model.Cart.CartItems.Count > -1)
+{
+    <li>
+        <a   asp-controller="Cart"asp-action="Index">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-status">
+                @Model.Cart.CartItems.Count
+            </span>
+        </a>
+    </li>
+}

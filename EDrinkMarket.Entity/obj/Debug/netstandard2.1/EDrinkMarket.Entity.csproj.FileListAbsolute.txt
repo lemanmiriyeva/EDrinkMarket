@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\bin\Debug\netstandard2.1\EDrinkMarket.Entity.deps.json
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\bin\Debug\netstandard2.1\EDrinkMarket.Entity.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\bin\Debug\netstandard2.1\EDrinkMarket.Entity.pdb
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.csprojAssemblyReference.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.AssemblyInfo.cs
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.dll
+C:\Users\User\source\repos\EDrinkMarket\EDrinkMarket.Entity\obj\Debug\netstandard2.1\EDrinkMarket.Entity.pdb
